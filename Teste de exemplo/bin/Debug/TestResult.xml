@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Samuel\Desktop\Teste do teste\Teste de exemplo\Teste de exemplo\bin\Debug\Teste de exemplo.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2023-05-02" time="19:04:04">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.9168" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\Samuel\Desktop\Teste do teste" machine-name="DESKTOP-4KE3CMD" user="Samuel" user-domain="DESKTOP-4KE3CMD" />
+  <culture-info current-culture="pt-BR" current-uiculture="pt-BR" />
+  <test-suite type="Assembly" name="C:\Users\Samuel\Desktop\Teste do teste\Teste de exemplo\Teste de exemplo\bin\Debug\Teste de exemplo.dll" executed="True" result="Success" success="True" time="73.870" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Teste_de_exemplo" executed="True" result="Success" success="True" time="73.851" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="TestesDeExemplo" executed="True" result="Success" success="True" time="73.841" asserts="0">
+            <results>
+              <test-case name="Teste_de_exemplo.TestesDeExemplo.PesquisarNoGoogle" executed="True" result="Success" success="True" time="32.783" asserts="0" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
