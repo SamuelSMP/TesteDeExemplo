@@ -5,7 +5,7 @@ using OpenQA.Selenium.Support.UI;
 using NUnit.Framework;
 using Util;
 
-namespace DemonstracaoTesteAutomatizado
+namespace SQLHelperTextTool
 {
     [TestFixture]
     public class TestesNaTelaDeLogin

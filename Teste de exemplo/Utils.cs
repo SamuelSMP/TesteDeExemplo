@@ -32,7 +32,7 @@ namespace Util
                 js.ExecuteScript("alert('Erro: Não foi possível encontrar o elemento -" + ByElement + "-. Um print foi criado e está localizado na pasta -Prints-.')");
                 Printar("Erro - elemento não encontrado");
                 Console.WriteLine("Texto " + ByElement + " não foi encontrado.");
-                Aguarda(6);
+                Aguarda(3);
                 driver.SwitchTo().Alert().Accept();
                 throw new Exception("Erro: Elemento " + ByElement + " deveria ser encontrado.");
             }
@@ -89,7 +89,7 @@ namespace Util
                 js.ExecuteScript("alert('Apareceu uma tela de erro. O teste será interrompido. Um print foi criado e está localizado na pasta -Prints-.')");
                 Console.WriteLine("Apareceu uma tela de erro de exceção no site.");
                 EscreverFeedbackNoLog("Apareceu uma tela de erro de exceção no site.");
-                Aguarda(6);
+                Aguarda(3);
                 throw new Exception("Apareceu uma tela de erro de exceção no site.");
             }
             else if (driver.Url.StartsWith(link))
@@ -103,7 +103,7 @@ namespace Util
                 js.ExecuteScript("alert('Erro na checagem do link: O link atual não é o link que deveria ser. O teste será interrompido. Um print foi criado e está localizado na pasta -Prints-.')");
                 Console.WriteLine("Erro na checagem do link. O link deveria começar com: " + link + "");
                 EscreverFeedbackNoLog("Erro na checagem do link. O link deveria começar com: " + link + "");
-                Aguarda(6);
+                Aguarda(3);
                 throw new Exception("Erro: O link deveria começar com: " + link + ".");
             }
         }
@@ -135,7 +135,7 @@ namespace Util
             js.ExecuteScript("alert('O teste -" + NomeDoTeste + "- foi executado e rodado com sucesso!')");
             Console.WriteLine("Teste " + NomeDoTeste + " executado com sucesso!");
             EscreverFeedbackNoLog("Teste " + NomeDoTeste + " executado com sucesso!");
-            Aguarda(5);
+            Aguarda(2);
             driver.SwitchTo().Alert().Accept();
         }
 
