@@ -48,7 +48,7 @@ namespace SQLHelperTextTool
         }
 
         [Test]
-        public void LinkErradoDeProposito()
+        public void TestandoLinkErradoDeProposito()
         {
             //Este teste foi criado para dar errado de propósito
             Utils.NomeDoTeste = "TesteLoginInorreto";
